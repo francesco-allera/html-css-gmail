@@ -1,7 +1,18 @@
+/* ----- General Settings ----- */
 body {
    background: url('../img/background.jpg');
    color: white;
 }
+img {
+   height: 100px;
+   vertical-align: middle;
+}
+footer {
+   font-weight: bold;
+   text-align: center;
+}
+
+/* ----- Utility Classes ----- */
 .container {
    max-width: 90%;
    margin: 0 auto;
@@ -42,12 +53,4 @@ body {
 }
 .mail-text {
    color: gray;
-}
-img {
-   height: 100px;
-   vertical-align: middle;
-}
-footer {
-   font-weight: bold;
-   text-align: center;
 }
