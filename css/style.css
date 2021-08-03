@@ -1,0 +1,53 @@
+body {
+   background: url('../img/background.jpg');
+   color: white;
+}
+.container {
+   max-width: 90%;
+   margin: 0 auto;
+}
+.padding {
+   padding: 10px 0;
+}
+.border-bottom {
+   border-bottom: 2px solid;
+}
+.big {
+   font-size: 30px;
+}
+.border {
+   border: 1px solid black;
+}
+.thirty {
+   padding: 10px;
+   background: orange;
+   border-radius: 50%;
+}
+.unread {
+   padding: 15px 0 10px;
+}
+.grey {
+   background: lightgray;
+}
+.white {
+   background: white;
+}
+.mail-object {
+   color: black;
+   font-weight: bold;
+}
+.mail-object::before {
+   content: '\2605';
+   padding-right: 5px;
+}
+.mail-text {
+   color: gray;
+}
+img {
+   height: 100px;
+   vertical-align: middle;
+}
+footer {
+   font-weight: bold;
+   text-align: center;
+}
