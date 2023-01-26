@@ -1,0 +1,62 @@
+/* utilities */
+body {
+    background-image: url('../img/bg.jpg');
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.padding {
+    padding: 10px 0;
+}
+.border-btm {
+    border-bottom: 2px solid;
+}
+.big {
+    font-size: 2em;
+    font-style: normal;
+}
+.circle {
+    background-color: orange;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* header */
+#logo {
+    height: 100px;
+    vertical-align: middle;
+}
+
+/* main */
+button {
+    text-transform: uppercase;
+}
+.mail {
+    background-color: lightgray;
+    color: gray;
+    border: 1px solid black;
+}
+.bg-white {
+    background-color: white;
+}
+.mail-obj {
+    color: black;
+}
+.mail-obj::before {
+    content: "\2605";
+    margin-right: 5px;
+}
+
+/* footer */
+footer {
+    font-weight: bold;
+    text-align: center;
+}
